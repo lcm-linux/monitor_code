@@ -9,9 +9,9 @@ from Mail_html import send_mail
 from texttable import Texttable
 
 ResourceManagerMap = {}
-ResourceManagerMap['rm1'] = "192.168.160.17"
-ResourceManagerMap['rm2'] = "192.168.160.18"
-ResourceManagerUrl = "192.168.160.17"
+ResourceManagerMap['rm1'] = "resourcemanager16017"
+ResourceManagerMap['rm2'] = "resourcemanager16018"
+ResourceManagerUrl = "resourcemanager16017"
 queue_per = 10
 try:
     for name, url in ResourceManagerMap.items():
