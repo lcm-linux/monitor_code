@@ -66,6 +66,6 @@ html_text4 = html_text3.replace('<td>', '<td style="height:40px;" align="center"
 que_per2_list = df_que_per2['queueUsagePercentage'].values.T.tolist()
 for que in que_per2_list:
     if que > queue_per:
-        arrReceiver = ['chunmiao.li@ipinyou.com']
+        arrReceiver = ['xxx@xxx.com']
         send_mail("New Job valaue is too large in %s" % ResourceManagerUrl, html_text4, arrReceiver)
         break
