@@ -9,9 +9,9 @@ from email.mime.text import MIMEText
 
 mailto = ""
 mail_host = "smtp.qiye.163.com"
-mail_user = "data_warning@ipinyou.com"
-mail_pass = "Data1qa2ws"
-mail_postfix = "ipinyou.com"
+mail_user = "data_warning@xxx.com"
+mail_pass = "xxxx"
+mail_postfix = "xxx.com"
 
 
 def send_mail(sub, content, to):
