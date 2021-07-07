@@ -9,6 +9,7 @@ from Mail_html import send_mail
 from texttable import Texttable
 
 ResourceManagerMap = {}
+#yarn集群信息
 ResourceManagerMap['rm1'] = "resourcemanager16017"
 ResourceManagerMap['rm2'] = "resourcemanager16018"
 ResourceManagerUrl = "resourcemanager16017"
